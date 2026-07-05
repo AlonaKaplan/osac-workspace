@@ -79,6 +79,7 @@ Check:
 - [ ] Goals are measurable outcomes, not activities ("Users can deploy X" not "Implement deployment")
 - [ ] Non-goals are specific, not vague ("Auto-scaling is out of scope" not "Advanced features")
 - [ ] No vague language ("appropriate", "efficient", "standard" without specifics)
+- [ ] Requirements grounded in explicit use cases, not generic statements ("store SSH keypairs, OIDC secrets, cloud-init credentials" not "create and manage secrets")
 - [ ] No scope reduction language ("v2", "simplified", "placeholder", "future enhancement")
 - [ ] Terminology is consistent throughout — same concept never called by different names
 - [ ] Each section has substantive content or is explicitly omitted per template rules
@@ -212,7 +213,7 @@ Present findings as a structured review:
 ## Severity Classification
 
 - **Critical**: Missing required sections, no personas identified, scope unbounded, requirements untestable, OSAC dimensions completely ignored
-- **Important**: Vague non-goals, missing personas, some dimensions not addressed, weak acceptance criteria, scope creep signals
+- **Important**: Vague non-goals, missing personas, some dimensions not addressed, weak acceptance criteria, scope creep signals, requirements stated as generic capabilities without concrete use cases
 - **Suggestion**: Style improvements, additional non-goals, deeper risk analysis, more specific metrics
 
 ## Notes
